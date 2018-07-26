@@ -1,5 +1,7 @@
 # ServerStatus1Click
 
+服务端一键脚本施工中，不日上线
+
 ## 说明
 客户端源码fork自@cppla，一键脚本自制
 <br>ServerStatus客户端的一键安装脚本，只需输入必要数据即可全自动安装并启动，脚本只需运行一次。
