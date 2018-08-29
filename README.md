@@ -10,7 +10,7 @@
 
 ## 使用教程
 ````
-wget -N --no-check-certificate https://raw.githubusercontent.com/dovela/ServerStatus/master/ServerStatus1Click.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/dovela/ServerStatus/auto/ServerStatus1Click.sh
 chmod +x ServerStatus1Click.sh
 ./ServerStatus1Click.sh
 ````
