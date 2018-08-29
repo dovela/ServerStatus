@@ -179,11 +179,9 @@ echo -e " 出现问题请在 https://github.com/dovela/ServerStatus1Click 处提
   5.首次安装linux依赖，直接安装失败请执行
   6.卸载 ServerStatus
 ————————————
-  7.更新 ServerStatus
-————————————
   输入数字开始，或ctrl + c退出
 "
-echo && stty erase '^H' && read -p " 请输入数字[1-7]:" num
+echo && stty erase '^H' && read -p " 请输入数字[1-6]:" num
  case "$num" in
  	1)
 	install_ssc
@@ -203,9 +201,6 @@ echo && stty erase '^H' && read -p " 请输入数字[1-7]:" num
 	6)
 	delete_ssc
 	;;
-    7)
-    update_ssc
-    ;;
 	*)
 	echo -e "Error, 请输入正确的数字 [1-6]!"
 	;;
