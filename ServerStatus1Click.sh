@@ -143,6 +143,7 @@ install_env(){
 
 update_ssc(){
     cd ${file}
+    git pull
     update_judge=`git status | awk '{if($0~"git pull") print}'`
     if [[ -z "${update_judge}" ]]; then
         echo '当前 ServerStatus 为最新版本,不需更新!'
